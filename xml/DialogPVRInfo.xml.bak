@@ -60,7 +60,7 @@
 					<itemgap>10</itemgap>
 					<align>center</align>
 					<orientation>horizontal</orientation>
-					<defaultcontrol>7</defaultcontrol>
+					<defaultcontrol>5</defaultcontrol>
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>61</onup>
@@ -72,11 +72,10 @@
 						<param name="visible" value="Window.IsActive(PVRGuideInfo)" />
 					</include>
 					<include content="InfoDialogButton">
-						<param name="id" value="7" />
-						<param name="label" value="Play From Beginning" />
-						<param name="icon" value="icons/infodialogs/launch.png" />
-						<param name="onclick_1" value="RunPlugin(plugin://plugin.video.o2tvgo.iptv.simple?playfromepg=1&starttime=$INFO[ListItem.StartTime]&channelname=$INFO[ListItem.ChannelName]&channelnumber=$INFO[ListItem.ChannelNumber]&startdate=$INFO[ListItem.StartDate])" />
-						<param name="visible" value="!ListItem.IsResumable" />
+						<param name="id" value="4" />
+						<param name="icon" value="icons/infodialogs/similar.png" />
+						<param name="label" value="$LOCALIZE[19003]" />
+						<param name="visible" value="Window.IsActive(PVRGuideInfo)" />
 					</include>
 					<include content="InfoDialogButton">
 						<param name="id" value="8" />
