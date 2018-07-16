@@ -464,6 +464,10 @@
 				<onclick>RunPlugin(plugin://plugin.video.o2tvgo.iptv.simple?refreshhome=1)</onclick>
 				<thumb>icons/sidemenu/disc.png</thumb>
 				<visible>System.hasAddon(plugin.video.o2tvgo.iptv.simple)</visible>
+					<label>Refresh</label>
+					<onclick>RunPlugin(plugin://plugin.video.o2tvgo.iptv.simple?refreshhome=1)</onclick>
+					<thumb>DefaultAddonsUpdates.png</thumb>
+					<visible>System.hasAddon(plugin.video.o2tvgo.iptv.simple)</visible>
 			</item>
 			<item>
 				<label>$LOCALIZE[19017]</label>
